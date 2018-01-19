@@ -1,0 +1,11 @@
+@extends('layouts.layout')
+@section('page-styles')
+@stop
+@section('content')
+  @include('user.partials.edit-form')
+@stop
+@section('plugin-js')
+@stop
+@section('page-js')
+@include('user.partials.edit-page-scripts')
+@stop

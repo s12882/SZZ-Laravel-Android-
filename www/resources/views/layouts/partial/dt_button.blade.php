@@ -1,0 +1,1 @@
+<a class="btn btn-xs {{$class}}" href="{{$action}}" data-toggle="tooltip" data-title="{{$tooltipText}}"><i class="{{$iconClass}}"></i>{{$text}}</a>

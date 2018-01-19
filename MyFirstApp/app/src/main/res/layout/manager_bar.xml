@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/buttonHomeMan"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/fa_home"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonTaskMan"
+        app:layout_constraintEnd_toStartOf="@+id/buttonTaskMan" />
+
+    <Button
+        android:id="@+id/buttonProfileMan"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/fa_user"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonEmployeesMan"
+        app:layout_constraintStart_toEndOf="@+id/buttonEmployeesMan" />
+
+    <Button
+        android:id="@+id/buttonStorageMan"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/fa_archive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline" />
+
+    <Button
+        android:id="@+id/buttonTaskMan"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/fa_check_square_o"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonStorageMan"
+        app:layout_constraintEnd_toStartOf="@+id/buttonStorageMan" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <Button
+        android:id="@+id/buttonEmployeesMan"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/fa_users"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonRolesMan"
+        app:layout_constraintStart_toEndOf="@+id/buttonRolesMan" />
+
+    <Button
+        android:id="@+id/buttonRolesMan"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/fa_lock"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonStorageMan"
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
+
+</android.support.constraint.ConstraintLayout>

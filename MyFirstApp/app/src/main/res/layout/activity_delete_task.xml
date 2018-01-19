@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myfirstapp.Activities.DeleteTaskActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="256dp">
+
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="128dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="128dp"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="@string/confirmDelete"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/denyButton"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/confirmDelete" />
+
+        <Button
+            android:id="@+id/denyButton"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="128dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="128dp"
+            android:backgroundTint="@color/material_drawer_selected_text"
+            android:text="@string/Deny"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/confirmButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/Deny" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

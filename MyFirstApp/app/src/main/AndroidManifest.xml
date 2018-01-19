@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfirstapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- <uses-permission android:name="com.google.android.gm.permission.READ_GMAIL" /> -->
+    <!-- <uses-permission android:name="com.google.android.gm.permission.WRITE_GMAIL" /> -->
+    <!-- <uses-permission android:name="com.google.android.gm.permission.AUTO_SEND" /> -->
+    <!-- <uses-permission android:name="com.google.android.gm.permission.READ_CONTENT_PROVIDER" /> -->
+    <!-- <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH" /> -->
+    <!-- <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.mail" /> -->
+    <!-- <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" /> -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.SectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SectionsActivity"
+            android:label="@string/title_sections_activity" />
+        <activity android:name=".Activities.EmployeeDetailsActivity" />
+        <activity
+            android:name=".Activities.SetPinActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".Activities.VerifyPinActivity"
+            android:theme="@style/Theme.AppCompat.Light"/>
+        <activity android:name=".Activities.BasicActivity" />
+        <activity
+            android:name=".Activities.CreateUserActivity"
+            android:label="@string/title_user_create_activity" />
+        <activity
+            android:name=".Activities.DeleteUserActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".Activities.EditUserActivity"
+            android:label="@string/title_user_edit_activity" />
+        <activity android:name=".Activities.AboutActivity" />
+
+        <service android:name=".Services.FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Services.FirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".Activities.CreateTaskActivity"
+            android:label="@string/title_task_create_activity" />
+        <activity
+            android:name=".Activities.TaskDetailsActivity"
+            android:label="@string/title_task_details_activity" />
+        <activity
+            android:name=".Activities.AddEmployeesActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".Activities.ProfileDetailsActivity"
+            android:label="@string/title_activity_profile_details" />
+        <activity
+            android:name=".Activities.EditProfileActivity"
+            android:label="@string/title_activity_edit_profile" />
+        <activity android:name=".Activities.EditTaskActivity" />
+        <activity
+            android:name=".Activities.DeleteTaskActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".Activities.EditEmployeesActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity android:name=".Activities.SectionHomeActivity" />
+        <activity android:name=".Activities.MyTasksActivity" />
+        <activity android:name=".Activities.MainMenuActivity"></activity>
+    </application>
+
+</manifest>

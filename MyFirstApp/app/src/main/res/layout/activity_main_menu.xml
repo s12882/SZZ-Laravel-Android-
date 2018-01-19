@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myfirstapp.Activities.MainMenuActivity">
+
+    <Button
+        android:id="@+id/taskBtn"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/material_drawer_secondary_text"
+        android:text="@string/tasks_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/tasks_btn"
+        tools:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/staffBtn"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="@string/staff_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileBtn"
+        tools:text="@string/staff_btn" />
+
+    <Button
+        android:id="@+id/sectionsBtn"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/material_drawer_primary"
+        android:text="@string/title_sections_activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taskBtn"
+        tools:text="@string/title_sections_activity" />
+
+    <Button
+        android:id="@+id/profileBtn"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/material_drawer_primary_dark"
+        android:text="@string/title_activity_profile_details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/title_activity_profile_details" />
+
+</android.support.constraint.ConstraintLayout>

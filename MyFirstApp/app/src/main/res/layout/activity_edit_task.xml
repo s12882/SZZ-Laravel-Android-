@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myfirstapp.Activities.EditTaskActivity">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/taskScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/newNameBox"
+                android:layout_width="314dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/newSectionSpinner"
+                android:layout_marginTop="100dp"
+                android:hint="@string/taskName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/newLocationBox"
+                android:layout_width="314dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="24dp"
+                android:hint="@string/taskLocation"
+                android:inputType="text"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/newNameBox" />
+
+
+            <EditText
+                android:id="@+id/newDetailsBox"
+                android:layout_width="314dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="24dp"
+                android:hint="@string/taskDetails"
+                android:inputType="text"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/newLocationBox" />
+
+            <Spinner
+                android:id="@+id/newSectionSpinner"
+                android:layout_width="213dp"
+                android:layout_height="56dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="23dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/newSectionText"
+                app:layout_constraintTop_toBottomOf="@+id/changeDate" />
+
+            <TextView
+                android:id="@+id/newSectionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="42dp"
+                android:text="@string/newSection"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/newDate"
+                tools:text="@string/newSection" />
+
+            <TextView
+                android:id="@+id/newDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/taskDate"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/newDetailsBox"
+                tools:text="@string/taskDate" />
+
+            <TextView
+                android:id="@+id/newEmployeeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="21dp"
+                android:text="@string/taskEmployee"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/newSectionSpinner"
+                tools:text="@string/taskEmployee" />
+
+            <Button
+                android:id="@+id/createTaskButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/edit"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/addEmployeesButton"
+                style="@style/Base.AlertDialog.AppCompat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/add"
+                app:layout_constraintStart_toEndOf="@+id/newEmployeeText"
+                app:layout_constraintTop_toBottomOf="@+id/newSectionSpinner" />
+
+            <DatePicker
+                android:id="@+id/datePicker"
+                android:layout_width="166dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="16dp"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/newDetailsBox" />
+
+            <Button
+                android:id="@+id/changeDate"
+                android:layout_width="192dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="6dp"
+                android:text="____-__-__"
+                app:layout_constraintStart_toEndOf="@+id/newDate"
+                app:layout_constraintTop_toBottomOf="@+id/newDetailsBox" />
+
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

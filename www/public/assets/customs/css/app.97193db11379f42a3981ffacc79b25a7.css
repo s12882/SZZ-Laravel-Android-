@@ -1,0 +1,209 @@
+.page-footer .container {
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+.page-footer .container .footer-image {
+  margin-top: -2px;
+  height: 16px;
+  width: auto;
+  margin-left: 5px;
+}
+
+.nav i {
+  margin-right: 2px;
+}
+
+.dataTables_filter {
+  float: right;
+}
+
+.dataTables_processing {
+  line-height: 5em;
+  height: 86px;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border-radius: 10px !important;
+  position: fixed;
+  top: calc(50vh - 43px);
+  z-index: 9;
+}
+
+.image-remove-button {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  cursor: pointer;
+}
+
+.image-download-button {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  cursor: pointer;
+}
+
+.image-download-button_edit_page {
+  position: absolute;
+  top: 10px;
+  left: 45px;
+  cursor: pointer;
+}
+
+.textarea-no-resize {
+  resize: none;
+}
+
+.input-group-btn button {
+  border: 1px solid #c2cad8 !important;
+}
+
+.row.no-gutters {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle > img {
+  width: 29px;
+}
+
+.page-logo a {
+  min-width: 80px;
+}
+
+.login .content .form-actions {
+  border-bottom: none;
+}
+
+.input-icon.right > .bootstrap-select {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+}
+
+.reset-password-form{
+  background-color: #fff;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  width: 400px;
+  margin: 40px auto 10px;
+  padding: 10px 30px 30px;
+  overflow: hidden;
+  position: relative
+}
+
+.border-right-2{
+  border-right: 2px solid lightgrey;
+}
+
+.w-100{
+  width:100%
+}

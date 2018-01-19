@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">SSZ Mobile</string>
+
+    <string name="edit_message">Message</string>
+    <string name="button_send">Send</string>
+    <string name="edit_login">Login</string>
+    <string name="edit_password">Haslo</string>
+    <string name="button_login">Zaloguj</string>
+
+    <string name="text_tab_header">Tab Header</string>
+
+    <string name="fa_home">&#xf015;</string>
+    <string name="fa_check_square_o">&#xf046;</string>
+    <string name="fa_lock">&#xf023;</string>
+    <string name="fa_archive">&#xf187;</string>
+    <string name="fa_users">&#xf0c0;</string>
+    <string name="fa_user">&#xf007;</string>
+    <string name="login">Login</string>
+    <string name="password">Haslo</string>
+    <string name="click_here_to_register">Click here to register</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="clear">Clear</string>
+    <string name="pin">PIN</string>
+    <string name="confirm">Zatwierdż</string>
+    <string name="wymyslPin">Wymyśl czterocyfrowy PIN do identyfikacji siebie</string>
+    <string name="iconplaceholder">IconPlaceholder</string>
+    <string name="taskname">Taskname</string>
+    <string name="taskdetails">taskdetails</string>
+    <string name="przyj_te">Przyjęte</string>
+    <string name="przyjmij_zlecenie">Przyjmij zlecenie</string>
+    <string name="reportTask">Zakończ zlecenie</string>
+    <string name="newName">Imię</string>
+    <string name="newSurname">Nazwisko</string>
+    <string name="newPassword">Password</string>
+    <string name="newPhone">Telefon</string>
+    <string name="newEmail">Email</string>
+    <string name="newSection">Dział</string>
+    <string name="newRole">Rola</string>
+    <string name="confirmDelete">Tak, usuń</string>
+    <string name="Deny">Anuluj</string>
+
+    <!--fragment-->
+    <string name="frags_bar">About</string>
+    <string name="add">Dodaj</string>
+    <string name="contacts_btn">Contacts</string>
+    <string name="about_btn">About</string>
+    <string name="staff_btn">Pracownicy</string>
+    <string name="tasks_btn">Zadania</string>
+    <string name="role_btn">Role</string>
+    <string name="replace">Replace</string>
+    <string name="stack">add to Back Stack</string>
+    <string name="contactPhone">- Phone: +48788323115
+    </string>
+
+    <!--createTask-->
+    <string name="taskName">Nazwa:</string>
+    <string name="taskLocation">Lokalizacja:</string>
+    <string name="taskDetails">Opis:</string>
+    <string name="taskDate">Zaplanuj</string>
+    <string name="taskSection">Dział</string>
+    <string name="taskEmployee">Pracownicy</string>
+
+
+    <string name="contactEmail">
+        - Email: whooles96@gmail.com
+    </string>
+    <string name="contactAddress">
+        - Address: ul.Somewhere 32
+    </string>
+    <string name="about">
+    Welocome to Android SZZ aplication, we hope you get nice experience of using it
+    </string>
+
+    <string name="action_settings">Ustawenia</string>
+    <string name="drawer_item_sections">Działy</string>
+    <string name="drawer_item_section_staff">Mój dział</string>
+    <string name="drawer_item_myTasks">Moje zadania</string>
+    <string name="drawer_item_tasks">Zadania</string>
+    <string name="drawer_item_custom">Custom</string>
+    <string name="drawer_item_divider">Tools</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_open_source">Help</string>
+    <string name="drawer_item_logout">Wylogój</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create">Utwórz</string>
+    <string name="edit">Edytuj</string>
+    <string name="name_colon">Imię:</string>
+    <string name="email_colon">E-mail:</string>
+    <string name="surname_colon">Nazwisko:</string>
+    <string name="name">Imię</string>
+    <string name="surname">Nazwisko</string>
+    <string name="email">Email</string>
+    <string name="section_colon">Dział:</string>
+    <string name="phone_colon">Telefon:</string>
+    <string name="phone">Telefon</string>
+    <string name="section">Dział</string>
+    <string name="send_report">Wyślij Raport</string>
+    <string name="report">Raport</string>
+    <string name="write_report">Tu wprowadź swój raport</string>
+    <string name="task_name">Nazwa</string>
+    <string name="task_location">Miejsce</string>
+    <string name="input_pin">Podaj swój PIN</string>
+    <string name="drawer">Drawer</string>
+    <string name="title_activity_profile_details">Mój Profil</string>
+    <string name="title_activity_edit_profile">Edycja Profilu</string>
+    <string name="title_task_details_activity">Zadanie</string>
+    <string name="title_task_create_activity">Nowe Zadanie</string>
+    <string name="title_user_edit_activity">Edycja Pracownika</string>
+    <string name="title_user_create_activity">Nowy Pracownik</string>
+    <string name="title_sections_activity"> Działy</string>
+    <string name="user_task_assigned">Jesteś przypisany do zadania</string>
+
+
+
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "806951938478",
+    "firebase_url": "https://szz-mobile.firebaseio.com",
+    "project_id": "szz-mobile",
+    "storage_bucket": "szz-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806951938478:android:f363407d1d70e5c1",
+        "android_client_info": {
+          "package_name": "com.example.myfirstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806951938478-4f9nq0nko0blgigtm69i34cd9qurmb29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1H_spNXGSTy97GGJxjujWtr4hExx6PEg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

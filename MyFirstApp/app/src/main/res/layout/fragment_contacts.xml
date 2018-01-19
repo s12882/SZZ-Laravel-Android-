@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ContactsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contactPhone"
+        android:textSize="18sp"
+        tools:text="@string/contactPhone" />
+
+    <TextView
+        android:id="@+id/contactsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contactEmail"
+        android:textSize="18sp"
+        tools:text="@string/contactEmail" />
+
+    <TextView
+        android:id="@+id/contactsText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contactAddress"
+        android:textSize="18sp"
+        tools:text="@string/contactAddress" />
+</LinearLayout>

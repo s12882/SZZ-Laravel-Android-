@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myfirstapp.Activities.EmployeeDetailsActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/tv_Name"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:gravity="start"
+        android:text="@string/name_colon"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Imię:" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="24dp"
+        android:gravity="start"
+        android:text="@string/email"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_Email"
+        app:layout_constraintEnd_toStartOf="@+id/mailButton"
+        app:layout_constraintStart_toEndOf="@+id/tv_Email"
+        tools:text="Email" />
+
+    <TextView
+        android:id="@+id/surname"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="24dp"
+        android:gravity="start"
+        android:text="@string/surname"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_Surname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_Surname"
+        tools:text="Nazwisko" />
+
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="100dp"
+        android:gravity="start"
+        android:text="@string/name"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_Name"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Imię" />
+
+    <TextView
+        android:id="@+id/tv_Surname"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:text="@string/surname_colon"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_Name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Name"
+        tools:text="Nazwisko:" />
+
+    <TextView
+        android:id="@+id/tv_Email"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:text="@string/email_colon"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_phone"
+        app:layout_constraintTop_toBottomOf="@+id/tv_phone"
+        tools:text="Email:" />
+
+    <TextView
+        android:id="@+id/tv_department"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/section_colon"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_Surname"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Surname"
+        tools:text="Dział:" />
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:text="@string/phone_colon"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_department"
+        app:layout_constraintTop_toBottomOf="@+id/tv_department" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="24dp"
+        android:gravity="start"
+        android:text="@string/phone"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_phone"
+        app:layout_constraintEnd_toStartOf="@+id/callButton"
+        app:layout_constraintStart_toEndOf="@+id/tv_phone"
+        tools:text="Telefon" />
+
+    <TextView
+        android:id="@+id/department"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="24dp"
+        android:gravity="start"
+        android:text="@string/section"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_department"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_department"
+        tools:text="Dział" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@android:drawable/ic_menu_edit"
+        android:backgroundTint="@color/material_drawer_accent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@android:drawable/ic_menu_delete"
+        android:backgroundTint="@color/material_drawer_accent"
+        app:layout_constraintBottom_toTopOf="@+id/editButton"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/stat_sys_phone_call"
+        android:backgroundTint="@color/material_drawer_accent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/department" />
+
+    <Button
+        android:id="@+id/mailButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:drawable/ic_dialog_email"
+        android:backgroundTint="@color/material_drawer_accent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/callButton" />
+
+</android.support.constraint.ConstraintLayout>
